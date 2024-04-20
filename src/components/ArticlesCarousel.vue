@@ -1,0 +1,103 @@
+<template>
+    <v-carousel show-arrows="hover">
+        <v-carousel-item cover>
+
+            <v-row class="d-flex justify-space-around">
+                <v-col cols="4" md="4">
+                    <v-hover v-slot="{ isHovering, props }">
+                        <v-card class="mx-auto" max-width="400" v-bind="props">
+                            <v-img class="align-end text-white" height="200"
+                                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
+                            </v-img>
+
+                            <v-card-title class="wrap-text">Kostka brukowa a płyty tarasowe: Porównanie
+                                materiałów</v-card-title>
+
+                            <v-card-text>
+                                <div>Zbadaj różnice w wytrzymałości, estetyce i kosztach między kostką brukową a płytami
+                                    tarasowymi, aby pomóc właścicielom domów w wyborze najlepszego rozwiązania.</div>
+                            </v-card-text>
+                            <v-overlay :model-value="isHovering" class="align-center justify-center" scrim="#036358"
+                                contained>
+                                <v-btn variant="flat">Czytaj dalej</v-btn>
+                            </v-overlay>
+                        </v-card>
+                    </v-hover>
+                </v-col>
+                <v-col cols="4" md="4">
+                    <v-card class="mx-auto" max-width="400">
+                        <v-img class="align-end text-white" height="200"
+                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
+                            <v-card-title>Top 10 Australian beaches</v-card-title>
+                        </v-img>
+
+                        <v-card-subtitle class="pt-4">
+                            Number 10
+                        </v-card-subtitle>
+
+                        <v-card-text>
+                            <div>Whitehaven Beach</div>
+
+                            <div>Whitsunday Island, Whitsunday Islands</div>
+                        </v-card-text>
+
+                        <v-card-actions>
+                            <v-btn color="orange" text="Explore"></v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-col>
+                <v-col cols="4" md="4">
+                    <v-card class="mx-auto" max-width="400">
+                        <v-img class="align-end text-white" height="200"
+                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
+                            <v-card-title>Top 10 Australian beaches</v-card-title>
+                        </v-img>
+
+                        <v-card-subtitle class="pt-4">
+                            Number 10
+                        </v-card-subtitle>
+
+                        <v-card-text>
+                            <div>Whitehaven Beach</div>
+
+                            <div>Whitsunday Island, Whitsunday Islands</div>
+                        </v-card-text>
+
+                        <v-card-actions>
+                            <v-btn color="orange" text="Explore"></v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-col>
+            </v-row>
+
+
+
+
+
+        </v-carousel-item>
+
+        <v-carousel-item cover>
+
+
+
+        </v-carousel-item>
+
+        <v-carousel-item src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover></v-carousel-item>
+    </v-carousel>
+</template>
+<script setup>
+</script>
+<script>
+export default {
+    name: 'ArticlesCarousel',
+}
+</script>
+<style>
+.wrap-text {
+    white-space: normal;
+}
+
+.v-carousel__controls {
+    display: none;
+}
+</style>
