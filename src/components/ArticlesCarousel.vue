@@ -6,12 +6,13 @@
                 <v-col cols="4" md="4">
                     <v-hover v-slot="{ isHovering, props }">
                         <v-card class="mx-auto" max-width="400" v-bind="props">
+                            <v-card-title class="wrap-text">Kostka brukowa a płyty tarasowe: Porównanie
+                                materiałów</v-card-title>
                             <v-img class="align-end text-white" height="200"
                                 src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
                             </v-img>
 
-                            <v-card-title class="wrap-text">Kostka brukowa a płyty tarasowe: Porównanie
-                                materiałów</v-card-title>
+
 
                             <v-card-text>
                                 <div>Zbadaj różnice w wytrzymałości, estetyce i kosztach między kostką brukową a płytami

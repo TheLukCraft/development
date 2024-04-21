@@ -9,6 +9,10 @@
                         <CompanyCard />
                         <ArticlesCarousel />
                         <CookiesInfo />
+                        <WhyUs />
+                        <CompanyAchievements />
+                        <BlogPage />
+                        <FAQ />
                     </v-sheet>
                 </v-col>
             </v-row>
@@ -24,6 +28,10 @@ import PavingBlocksContent from '../components/PavingBlocksAndTerranceSlabs/Pavi
 import CompanyCard from '../components/CompanyCard.vue';
 import ArticlesCarousel from '../components/ArticlesCarousel.vue';
 import CookiesInfo from '../components/CookiesInfo.vue';
+import WhyUs from '../components/WhyUs.vue';
+import CompanyAchievements from '../components/CompanyAchievements.vue';
+import BlogPage from '../components/BlogPage.vue';
+import FAQ from '../components/FAQ.vue';
 
 export default {
     name: 'PavingBlocksAndTerranceSlabs',
@@ -33,6 +41,10 @@ export default {
         CompanyCard,
         ArticlesCarousel,
         CookiesInfo,
+        WhyUs,
+        CompanyAchievements,
+        BlogPage,
+        FAQ,
     },
 }
 </script>
