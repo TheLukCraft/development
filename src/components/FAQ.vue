@@ -66,10 +66,28 @@
         </v-col>
         <div class="d-flex align-center  flex-direction: column">
             <v-col>
-                <h5 class="text-h5"><span class="text-green-darken-3">Bądź z nami</span> w kontakcie!</h5>
-                <p class="text-h5">GORMI</p>
-                <p class="ga-3"><v-icon icon="mdi-map"></v-icon>Góra Libertowska 22, 30-444 Libertów</p>
-                <p class="p-4"><v-icon icon="mdi-phone"></v-icon></p>
+                <h5 class="text-h5 mb-md-10"><span class="text-green-darken-3">Bądź z nami</span> w kontakcie!</h5>
+                <p class=" mb-md-3 text-green-darken-3 "><v-icon icon="mdi-domain text-green-darken-3"></v-icon> GORMI
+                </p>
+                <p class="mb-md-3"><v-icon icon="mdi-map text-green-darken-3"></v-icon> Góra
+                    Libertowska 22, 30-444
+                    Libertów</p>
+                <p class="mb-md-3"><v-icon icon="mdi-phone text-green-darken-3"></v-icon> +48 000 000</p>
+                <br />
+                <v-divider :thickness="3"></v-divider>
+                <br />
+                <p class=" mb-md-3 text-green-darken-3"><v-icon icon="mdi-domain"></v-icon> GORMI Kraków Bibice Węgrzce
+                </p>
+                <p class="mb-md-3"><v-icon icon="mdi-map text-green-darken-3"></v-icon> Warszawska 40A, 32-086 Węgrzyce
+                </p>
+                <p class="mb-md-3"><v-icon icon="mdi-phone text-green-darken-3"></v-icon> +48 000 000</p>
+                <br />
+                <v-divider :thickness="3"></v-divider>
+                <br />
+                <p class=" mb-md-3 text-green-darken-3"><v-icon icon="mdi-domain"></v-icon> GORMI Magazyn II Węgrzyce
+                </p>
+                <p class="mb-md-3"><v-icon icon="mdi-map text-green-darken-3"></v-icon> Zapole 2, 32-086 Węgrzyce</p>
+                <p class="mb-md-3"><v-icon icon="mdi-phone text-green-darken-3"></v-icon> +48 000 000</p>
                 <br />
                 <v-divider :thickness="3"></v-divider>
             </v-col>
