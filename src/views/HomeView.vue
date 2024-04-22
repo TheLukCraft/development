@@ -19,7 +19,7 @@
 // Components
 import NavBar from '../components/NavBar.vue';
 import MainContent from '../components/Home/MainContent.vue';
-import CarouselHome from '@/components/Home/CarouselHome.vue';
+import CarouselHome from '@/components/ExperimentalComponents/CarouselHome.vue';
 
 export default {
   name: 'HomeView',

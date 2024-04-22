@@ -1,0 +1,42 @@
+.bg-page {
+  background-color: #f2f2f2 !important;
+}
+.bg-button {
+  background-color: #5aa646 !important;
+}
+.bg-section {
+  background-color: #d2f2c9 !important;
+}
+.header {
+  color: #1e403c !important;
+}
+.link-color {
+  color: #6ba65b !important;
+}
+.icon-color {
+  color: #5aa646 !important;
+}
+.frame-color {
+  color: #1e403c !important;
+}
+.interactive-color {
+  color: #6ba65b !important;
+}
+.bg-menu {
+  background-color: #1e403c !important;
+}
+.text-menu {
+  color: #f2f2f2 !important;
+}
+.links-menu {
+  color: #6ba65b !important;
+}
+.bg-footer {
+  background-color: #1e403c !important;
+}
+.test {
+  color: lime-lighten-5 !important;
+}
+.bg-test {
+  background-color: lime-lighten-5 !important;
+}

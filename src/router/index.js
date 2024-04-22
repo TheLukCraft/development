@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import PavingBlocksAndTerranceSlabs from "@/views/PavingBlocksAndTerranceSlabs.vue";
+import ExperimentalView from "@/views/ExperimentalView.vue";
+import PavingBlocksAndTerranceSlabsView from "@/views/PavingBlocksAndTerranceSlabsView.vue";
 
 const routes = [
   {
@@ -18,9 +19,14 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
   {
-    path: "/pavingblocksandterranceslabs",
-    name: "Paving Blocks And TerranceSlabs",
-    component: PavingBlocksAndTerranceSlabs,
+    path: "/eksperyment",
+    name: "Experimental Components",
+    component: ExperimentalView,
+  },
+  {
+    path: "/kostki-brukowe-i-plyty-tarasowe",
+    name: "Paving Blocks and Terrance Slabs",
+    component: PavingBlocksAndTerranceSlabsView,
   },
 ];
 

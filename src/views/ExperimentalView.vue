@@ -5,7 +5,7 @@
             <v-row>
                 <v-col cols="12" md="12">
                     <v-sheet rounded="lg">
-                        <PavingBlocksContent />
+                        <ExperimentalComponents />
                         <CompanyCard />
                         <ArticlesCarousel />
                         <CookiesInfo />
@@ -24,20 +24,20 @@
 
 // Components
 import NavBar from '../components/NavBar.vue';
-import PavingBlocksContent from '../components/PavingBlocksAndTerranceSlabs/PavingBlocksContent.vue';
-import CompanyCard from '../components/CompanyCard.vue';
-import ArticlesCarousel from '../components/ArticlesCarousel.vue';
-import CookiesInfo from '../components/CookiesInfo.vue';
-import WhyUs from '../components/WhyUs.vue';
-import CompanyAchievements from '../components/CompanyAchievements.vue';
-import BlogPage from '../components/BlogPage.vue';
-import FAQ from '../components/FAQ.vue';
+import CompanyCard from '../components/ExperimentalComponents/CompanyCard.vue';
+import ArticlesCarousel from '../components/ExperimentalComponents/ArticlesCarousel.vue';
+import CookiesInfo from '../components/ExperimentalComponents/CookiesInfo.vue';
+import WhyUs from '../components/ExperimentalComponents/WhyUs.vue';
+import CompanyAchievements from '../components/ExperimentalComponents/CompanyAchievements.vue';
+import BlogPage from '../components/ExperimentalComponents/BlogPage.vue';
+import FAQ from '../components/ExperimentalComponents/FAQ.vue';
+import ExperimentalComponents from '@/components/ExperimentalComponents.vue';
 
 export default {
-    name: 'PavingBlocksAndTerranceSlabs',
+    name: 'ExperimentalView',
     components: {
         NavBar,
-        PavingBlocksContent,
+        ExperimentalComponents,
         CompanyCard,
         ArticlesCarousel,
         CookiesInfo,
