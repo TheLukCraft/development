@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ExperimentalView from "@/views/ExperimentalView.vue";
 import PavingBlocksAndTerranceSlabsView from "@/views/PavingBlocksAndTerranceSlabsView.vue";
+import ArticlesView from "../views/ArticlesView.vue";
 
 const routes = [
   {
@@ -10,7 +11,7 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/about",
+    path: "/o-nas",
     name: "about",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -27,6 +28,11 @@ const routes = [
     path: "/kostki-brukowe-i-plyty-tarasowe",
     name: "Paving Blocks and Terrance Slabs",
     component: PavingBlocksAndTerranceSlabsView,
+  },
+  {
+    path: "/blog",
+    name: "Articles",
+    component: ArticlesView,
   },
 ];
 
