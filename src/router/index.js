@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import ExperimentalView from "@/views/ExperimentalView.vue";
 import PavingBlocksAndTerranceSlabsView from "@/views/PavingBlocksAndTerranceSlabsView.vue";
 import ArticlesView from "../views/ArticlesView.vue";
+import PBATS2View from "@/views/PBATS2View.vue";
 
 const routes = [
   {
@@ -33,6 +34,11 @@ const routes = [
     path: "/blog",
     name: "Articles",
     component: ArticlesView,
+  },
+  {
+    path: "/test",
+    name: "PBATS2",
+    component: PBATS2View,
   },
 ];
 
