@@ -3,6 +3,9 @@
     <PBATSText2 />
     <ContactUs />
     <PBATSText3 />
+    <v-container>
+        <ArticlesCarousel />
+    </v-container>
     <PBATSGallery />
     <FooterGlobal />
 </template>
@@ -14,6 +17,7 @@ import NavBar from '../components/NavBar.vue';
 import PBATSText2 from '@/components/PBATS/PBATSText2.vue';
 import ContactUs from '@/components/ContactUs.vue';
 import PBATSText3 from '@/components/PBATS/PBATSText3.vue';
+import ArticlesCarousel from '@/components/ExperimentalComponents/ArticlesCarousel.vue';
 import PBATSGallery from '@/components/PBATS/PBATSGallery.vue';
 import FooterGlobal from '@/components/ExperimentalComponents/FooterGlobal.vue';
 
@@ -24,6 +28,7 @@ export default {
         PBATSText2,
         ContactUs,
         PBATSText3,
+        ArticlesCarousel,
         PBATSGallery,
         FooterGlobal,
     },

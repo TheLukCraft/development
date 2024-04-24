@@ -1,7 +1,6 @@
 <template>
-    <v-container class="bg-section">
-        <v-img class="width:100%" aspect-ratio="16/9" cover
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-img>
+    <v-container>
+        <v-img :max-height="500" aspect-ratio="16/9" cover src="img\adam-gong.jpg"></v-img>
         <v-row class="d-flex  justify-space-around">
             <v-col cols="12" md="12">
                 <br />
@@ -18,7 +17,7 @@
                         względami, co może wpłynąć na ostateczną decyzję. W tym artykule przyjrzymy się różnicom w
                         wytrzymałości, estetyce i kosztach między kostką brukową a płytami tarasowymi.</p>
                     <br />
-                    <h5 class="text-h5 text-medium-emphasis">
+                    <h5 class="text-h5 text-high-emphasis">
                         Kostka brukowa</h5>
                     <br>
                     <p class="text-justify ">Kostka brukowa jest znana ze swojej wyjątkowej trwałości i odporności na
@@ -26,7 +25,7 @@
                         odporna na duże obciążenia, co czyni ją idealnym wyborem na podjazdy i miejsca parkingowe. Jej
                         struktura zapewnia również długotrwałą stabilność i minimalną konserwację.</p>
                     <br />
-                    <h5 class="text-h5 text-medium-emphasis">
+                    <h5 class="text-h5 text-high-emphasis">
                         Płyty tarasowe</h5>
                     <br>
                     <p class="text-justify ">Płyty tarasowe, chociaż również trwałe, są zwykle wykorzystywane w
@@ -35,14 +34,14 @@
                         Płyty tarasowe są bardziej podatne na pęknięcia, jeśli nie są właściwie instalowane na
                         odpowiednio przygotowanym podłożu.</p>
                     <br />
-                    <h5 class="text-h5 text-medium-emphasis">
+                    <h5 class="text-h5 text-high-emphasis">
                         Estetyka kostki brukowej</h5>
                     <br>
                     <p class="text-justify ">Oferuje dużą różnorodność kolorów, kształtów i wzorów, co umożliwia
                         tworzenie unikalnych i atrakcyjnych wzorów. Kostka brukowa może być układana w różnorodne
                         geometryczne wzory, co dodaje charakteru każdej przestrzeni zewnętrznej.</p>
                     <br />
-                    <h5 class="text-h5 text-medium-emphasis">
+                    <h5 class="text-h5 text-high-emphasis">
                         Estetyka płyt tarasowych</h5>
                     <br>
                     <p class="text-justify ">Są zazwyczaj większe niż kostki brukowe i dostępne w szerokiej gamie
@@ -50,7 +49,7 @@
                         wybierane ze względu na ich nowoczesny wygląd i zdolność do stworzenia spójnej, eleganckiej
                         powierzchni.</p>
                     <br />
-                    <h5 class="text-h5 text-medium-emphasis">
+                    <h5 class="text-h5 text-high-emphasis">
                         koszty kostki brukowej</h5>
                     <br>
                     <p class="text-justify ">Koszt zakupu i instalacji kostki brukowej może być wyższy niż w przypadku
@@ -58,14 +57,14 @@
                         jej trwałość i minimalne wymagania konserwacyjne mogą przyczynić się do obniżenia
                         długoterminowych kosztów.</p>
                     <br />
-                    <h5 class="text-h5 text-medium-emphasis">
+                    <h5 class="text-h5 text-high-emphasis">
                         koszty płyt tarasowych</h5>
                     <br>
                     <p class="text-justify ">Choć początkowy koszt może być niższy, to płyty tarasowe mogą wymagać
                         częstszej wymiany lub napraw w przypadku uszkodzeń. Instalacja może również wymagać bardziej
                         skomplikowanej przygotowania podłoża, co zwiększa koszty początkowe.</p>
                     <br />
-                    <h5 class="text-h5 text-medium-emphasis">
+                    <h5 class="text-h5 text-high-emphasis">
                         Podsumowanie</h5>
                     <br>
                     <p class="text-justify ">Decyzja między kostką brukową a płytami tarasowymi powinna być podyktowana

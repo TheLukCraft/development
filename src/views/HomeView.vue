@@ -1,22 +1,16 @@
 <template>
-  <NavBar />
   <MainContent />
-  <FooterGlobal />
 </template>
 
 <script>
 
 // Components
-import NavBar from '../components/NavBar.vue';
 import MainContent from '@/components/Home/MainContent.vue';
-import FooterGlobal from '@/components/ExperimentalComponents/FooterGlobal.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    NavBar,
     MainContent,
-    FooterGlobal,
   },
 }
 </script>

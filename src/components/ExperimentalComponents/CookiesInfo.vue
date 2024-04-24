@@ -1,6 +1,6 @@
 <template>
-    <v-sheet border="md" class="pa-6 text-white mx-auto" color="#141518" max-width="400">
-        <h4 class="text-h5 font-weight-bold mb-4">Polityka Prywatności</h4>
+    <v-sheet border="md" class="pa-6 mx-auto" color="" max-width="400">
+        <h4 class="text-h5 font-weight-bold mb-4 header2">Polityka Prywatności</h4>
 
         <p class="mb-8">
             Polityka prywatności określa, jak zbierane, przetwarzane i przechowywane są dane osobowe Użytkowników
@@ -16,14 +16,14 @@
             <br>
             <br>
 
-            Proszę, przeczytaj naszą <a class="text-red-accent-2" href="#">politykę prywatności</a> dowiedz się więcej
+            Proszę, przeczytaj naszą <a class="header2" href="#">politykę prywatności</a> dowiedz się więcej
         </p>
 
-        <v-btn class="text-none text-black mb-4" color="red-accent-2" size="x-large" variant="flat" block>
+        <v-btn class="text-none text-black mb-4 bg-button" size="x-large" variant="flat" block>
             Akceptuję
         </v-btn>
 
-        <v-btn class="text-none text-black" color="red-accent-2" size="x-large" variant="outlined" block>
+        <v-btn class="text-none text-black header2" size="x-large" variant="outlined" block>
             Odrzucam
         </v-btn>
     </v-sheet>
@@ -35,3 +35,6 @@ export default {
     name: 'CookiesInfo',
 }
 </script>
+<style>
+@import "/public/css/globalStyles.css";
+</style>

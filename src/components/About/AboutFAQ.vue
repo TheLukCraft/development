@@ -1,7 +1,7 @@
 <template>
-    <v-container class="d-flex bg-section">
+    <v-container class="d-flex">
         <v-col cols="8" md="8">
-            <h3 class="text-h3"><span class="text-green-darken-3">Pytania</span> i Odpowiedzi</h3>
+            <h3 class="text-h3"><span class="header2">Pytania</span> i Odpowiedzi</h3>
             <br />
             <v-expansion-panels v-model="panel">
                 <v-expansion-panel readonly>
@@ -67,28 +67,28 @@
         </v-col>
         <div class="d-flex align-center  flex-direction: column">
             <v-col>
-                <h5 class="text-h5 mb-md-10"><span class="text-green-darken-3">Bądź z nami</span> w kontakcie!</h5>
-                <p class=" mb-md-3 text-green-darken-3 "><v-icon icon="mdi-domain text-green-darken-3"></v-icon> GORMI
+                <h5 class="text-h5 mb-md-10"><span class="header2">Bądź z nami</span> w kontakcie!</h5>
+                <p class=" mb-md-3 header2 "><v-icon icon="mdi-domain header2"></v-icon> GORMI
                 </p>
-                <p class="mb-md-3"><v-icon icon="mdi-map text-green-darken-3"></v-icon> Góra
+                <p class="mb-md-3"><v-icon icon="mdi-map header2"></v-icon> Góra
                     Libertowska 22, 30-444
                     Libertów</p>
-                <p class="mb-md-3"><v-icon icon="mdi-phone text-green-darken-3"></v-icon> +48 000 000</p>
+                <p class="mb-md-3"><v-icon icon="mdi-phone header2"></v-icon> +48 000 000</p>
                 <br />
                 <v-divider :thickness="3"></v-divider>
                 <br />
-                <p class=" mb-md-3 text-green-darken-3"><v-icon icon="mdi-domain"></v-icon> GORMI Kraków Bibice Węgrzce
+                <p class=" mb-md-3 header2"><v-icon icon="mdi-domain"></v-icon> GORMI Kraków Bibice Węgrzce
                 </p>
-                <p class="mb-md-3"><v-icon icon="mdi-map text-green-darken-3"></v-icon> Warszawska 40A, 32-086 Węgrzyce
+                <p class="mb-md-3"><v-icon icon="mdi-map header2"></v-icon> Warszawska 40A, 32-086 Węgrzyce
                 </p>
-                <p class="mb-md-3"><v-icon icon="mdi-phone text-green-darken-3"></v-icon> +48 000 000</p>
+                <p class="mb-md-3"><v-icon icon="mdi-phone header2"></v-icon> +48 000 000</p>
                 <br />
                 <v-divider :thickness="3"></v-divider>
                 <br />
-                <p class=" mb-md-3 text-green-darken-3"><v-icon icon="mdi-domain"></v-icon> GORMI Magazyn II Węgrzyce
+                <p class=" mb-md-3 header2"><v-icon icon="mdi-domain"></v-icon> GORMI Magazyn II Węgrzyce
                 </p>
-                <p class="mb-md-3"><v-icon icon="mdi-map text-green-darken-3"></v-icon> Zapole 2, 32-086 Węgrzyce</p>
-                <p class="mb-md-3"><v-icon icon="mdi-phone text-green-darken-3"></v-icon> +48 000 000</p>
+                <p class="mb-md-3"><v-icon icon="mdi-map header2"></v-icon> Zapole 2, 32-086 Węgrzyce</p>
+                <p class="mb-md-3"><v-icon icon="mdi-phone header2"></v-icon> +48 000 000</p>
                 <br />
                 <v-divider :thickness="3"></v-divider>
             </v-col>

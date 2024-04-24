@@ -1,16 +1,16 @@
 <template>
-    <v-system-bar color="#d2f2c9">
+    <v-system-bar class="white">
         <v-spacer></v-spacer>
         <v-icon icon="mdi mdi-facebook" class="ms-2"></v-icon>
         <v-icon icon="mdi mdi-instagram" class="ms-2"></v-icon>
         <v-icon icon="mdi mdi-youtube" class="ms-2"></v-icon>
     </v-system-bar>
-    <v-app-bar height="100" flat color="#d2f2c9 ">
+    <v-app-bar height="100" flat>
         <v-app-bar-title>
             <v-img class="logo-gormi" src="https://i.imgur.com/h4D2HPH.png"></v-img>
         </v-app-bar-title>
         <v-spacer></v-spacer>
-        <v-card color="#6ba65b" flat outlined height="50" width="500" class="mt-6 pt-1">
+        <v-card color="#f2f2f2" flat outlined height="50" width="500" class="mt-6 pt-1">
             <v-row>
                 <v-col cols="12" sm="10">
                     <v-text-field density="compact" placeholder="Wyszukaj" variant="" class="header"></v-text-field>
@@ -84,5 +84,9 @@ export default {
 
 .logo-gormi {
     max-height: 100px;
+}
+
+.white {
+    background-color: white;
 }
 </style>
