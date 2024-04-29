@@ -1,30 +1,31 @@
 <template>
     <v-container class="d-flex">
-        <v-col cols="6" md="6">
+        <v-col cols="12" md="6" sm="12">
             <h3 class="text-h3 text-high-emphasis"><span class="header2">Dlaczego wybrać </span> nasze płyty tarasowe?
             </h3>
-            <div class="ma-md-8"></div>
+            <div class="ma-8"></div>
             <p class="text-medium-emphasis">Jesteśmy wiodącym dostawcą płyt tarasowych, które są nie tylko trwałe i
                 estetyczne, ale także dostępne w wielu wzorach, idealnie pasujących do różnorodnych przestrzeni
                 zewnętrznych. Nasze płyty są wyprodukowane z wykorzystaniem nowoczesnych technologii, co gwarantuje ich
                 długotrwałą jakość i odporność na zmienne warunki atmosferyczne.
             </p>
-            <div class="ma-md-5"></div>
+            <div class="ma-md-5 ma-6"></div>
             <p class="text-h6 font-weight-medium"><v-icon class="icon-color icon-text" icon="mdi mdi-palette"
                     size="x-large"></v-icon> Elastyczność projektowa
                 Access</p>
-            <div class="ma-md-2"></div>
+            <div class="ma-md-2 ma-6 pb-sm-and-down-5"></div>
             <p class="text-h6 font-weight-medium"><v-icon class="icon-color icon-text" icon="mdi mdi-weather-sunny"
                     size="x-large"></v-icon> Wytrzymałość na warunki atmosferyczne
                 Access</p>
-            <div class="ma-md-2"></div>
+            <div class="ma-md-2 ma-6"></div>
             <p class="text-h6 font-weight-medium"><v-icon class="icon-color icon-text" icon="mdi mdi-toolbox"
                     size="x-large"></v-icon> Prosty montaż
                 Access</p>
 
         </v-col>
         <v-col cols="6" md="6" class="d-flex justify-end align-self-start">
-            <v-img class="centered-image" :width="100" aspect-ratio="1.3" cover src="/img/james-kovin.png"></v-img>
+            <v-img class="centered-image d-none d-md-block" :width="100" aspect-ratio="1.3" cover
+                src="/img/james-kovin.png"></v-img>
         </v-col>
     </v-container>
 </template>
