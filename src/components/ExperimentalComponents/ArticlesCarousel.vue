@@ -1,5 +1,5 @@
 <template>
-    <v-carousel show-arrows="hover">
+    <v-carousel class="d-none d-md-block" show-arrows="hover">
         <v-carousel-item cover>
             <v-row class="d-flex justify-space-around">
                 <v-col cols="4" md="4">
@@ -65,10 +65,6 @@
                         </v-card>
                     </v-hover>
                 </v-col>
-
-
-
-
             </v-row>
         </v-carousel-item>
 
